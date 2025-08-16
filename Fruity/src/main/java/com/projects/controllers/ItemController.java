@@ -20,9 +20,9 @@ public class ItemController {
 	        fruits.add(new Item("Goji Berries", 4.0));
 	        fruits.add(new Item("Guava", .75));
 
-	        model.addAttribute("fruits", fruits);  // أضفنا list للـ view
+	        model.addAttribute("fruits", fruits); 
 
-	        return "index.jsp";
+	        return "index";
 	    }
 
 }
