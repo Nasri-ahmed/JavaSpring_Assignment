@@ -1,10 +1,10 @@
-package com.projects.game;
+package com.demo.book;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NinjaGoldGameApplicationTests {
+class BookApiApplicationTests {
 
 	@Test
 	void contextLoads() {
