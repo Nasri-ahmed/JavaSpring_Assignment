@@ -3612,3 +3612,99 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.glassfish
 2025-08-19 16:07:53,445 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-08-19 16:07:53,502 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-08-19 16:07:53,515 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BookAPI\src\test\resources
+2025-08-19 16:11:27,828 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 16:11:27,876 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 16:11:27,882 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BookAPI\src\test\resources
+2025-08-19 16:51:07,354 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.demo.burger:BurgerTracker:0.0.1-SNAPSHOT @ C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\pom.xml.
+2025-08-19 16:51:09,637 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BurgerTracker/src/main/java
+2025-08-19 16:51:09,645 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BurgerTracker/src/main/resources
+2025-08-19 16:51:09,650 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BurgerTracker/src/main/resources
+2025-08-19 16:51:09,653 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BurgerTracker/src/test/java
+2025-08-19 16:51:09,654 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BurgerTracker/src/test/resources
+2025-08-19 16:51:12,455 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-08-19 16:51:12,465 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-19 16:51:13,113 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.demo.burger:BurgerTracker:0.0.1-SNAPSHOT @ C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\pom.xml.
+2025-08-19 16:51:14,017 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BurgerTracker/src/main/java
+2025-08-19 16:51:14,018 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BurgerTracker/src/main/resources
+2025-08-19 16:51:14,018 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BurgerTracker/src/main/resources
+2025-08-19 16:51:14,018 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BurgerTracker/src/test/java
+2025-08-19 16:51:14,019 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BurgerTracker/src/test/resources
+2025-08-19 16:51:14,959 [Worker-24: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for BurgerTracker
+2025-08-19 16:51:15,010 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2025-08-19 16:51:16,054 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 16:51:16,119 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 16:51:16,134 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 16:51:16,135 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of BurgerTracker
+2025-08-19 16:51:16,136 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for BurgerTracker
+2025-08-19 16:54:44,902 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 16:54:44,981 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 16:54:44,986 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 16:57:41,598 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 16:57:41,632 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 16:57:41,652 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 16:59:30,334 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 16:59:30,350 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 16:59:30,363 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 16:59:50,823 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 16:59:50,846 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 16:59:50,857 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:00:17,686 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:00:17,706 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:00:17,722 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:01:27,253 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:01:27,266 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:01:27,279 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:03:30,372 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:03:30,383 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:03:30,387 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:03:59,226 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:03:59,249 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:03:59,267 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:06:22,267 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.demo.burger:BurgerTracker:0.0.1-SNAPSHOT @ C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\pom.xml.
+2025-08-19 17:06:24,270 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:06:24,271 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:06:24,282 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:06:24,282 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of BurgerTracker
+2025-08-19 17:06:24,283 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for BurgerTracker
+2025-08-19 17:06:25,699 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:06:25,726 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:06:25,734 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:06:48,284 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:06:48,302 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:06:48,314 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:06:55,630 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:06:55,642 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:06:55,648 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:06:59,019 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:06:59,035 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:06:59,050 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:09:22,036 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:09:22,048 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:09:22,054 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:09:40,531 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:09:40,537 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:09:40,545 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:11:15,891 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:11:15,904 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:11:15,918 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:11:44,912 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:11:44,915 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:11:44,920 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:12:01,966 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:12:01,968 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:12:01,982 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:12:25,546 [Worker-22: Launching BurgerTracker - BurgerTrackerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:12:25,569 [Worker-22: Launching BurgerTracker - BurgerTrackerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:12:25,579 [Worker-22: Launching BurgerTracker - BurgerTrackerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:15:36,616 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:15:36,645 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:15:36,653 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:17:32,435 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:17:32,451 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:17:32,461 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:18:50,697 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:18:50,711 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:18:50,715 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
+2025-08-19 17:21:06,875 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-19 17:21:06,918 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-19 17:21:06,931 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Nasri\Desktop\JavaSpring_Assignment\BurgerTracker\src\test\resources
