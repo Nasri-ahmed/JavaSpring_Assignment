@@ -4,25 +4,23 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 
 @Entity
-@Table(name="burgers")  // اسم الجدول في قاعدة البيانات
+@Table(name="burgers")
 public class Burger {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message="Burger Name is required")
+    @NotBlank(message="Burger name is required")
     private String name;
 
-    @NotBlank(message="Restaurant Name is required")
+    @NotBlank(message="Restaurant name is required")
     private String restaurant;
 
-    @NotNull
     @Min(value=1, message="Rating must be at least 1")
-    @Max(value=5, message="Rating cannot be more than 5")
-    private Integer rating;
+    @Max(value=5, message="Rating must be at most 5")
+    private int rating;
 
-    @NotBlank(message="Notes must not be blank")
+    @NotBlank(message="Notes are required")
     private String notes;
 
     // ======== Getters and Setters =========

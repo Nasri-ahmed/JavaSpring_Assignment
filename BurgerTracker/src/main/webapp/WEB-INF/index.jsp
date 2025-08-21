@@ -1,59 +1,70 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<!DOCTYPE html>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Burger</title>
+    <title>Burger Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<h1>Burger Tracker</h1>
+<body class="bg-light">
+<div class="container mt-5">
+    <h1 class="text-center text-primary mb-4">🍔 Burger Tracker</h1>
 
-<table border="1">
-    <thead>
-        <tr>
-            <th>Burger Name</th>
-            <th>Restaurant Name</th>
-            <th>Rating</th>
-        </tr>
-    </thead>
-    <tbody>
-        <c:forEach var="b" items="${burgers}">
-            <tr>
-                <td>${b.name}</td>
-                <td>${b.restaurant}</td>
-                <td>${b.rating}</td>
-            </tr>
-        </c:forEach>
-    </tbody>
-</table>
+    <!-- Add Burger Form -->
+    <div class="card shadow p-4 mb-4">
+        <h4 class="mb-3">Add a New Burger</h4>
+        <form:form method="POST" action="/burgers" modelAttribute="burger">
+            <div class="mb-3">
+                <form:label path="name">Burger Name</form:label>
+                <form:input path="name" class="form-control"/>
+                <form:errors path="name" class="text-danger"/>
+            </div>
+            <div class="mb-3">
+                <form:label path="restaurant">Restaurant</form:label>
+                <form:input path="restaurant" class="form-control"/>
+                <form:errors path="restaurant" class="text-danger"/>
+            </div>
+            <div class="mb-3">
+                <form:label path="rating">Rating (1-5)</form:label>
+                <form:input path="rating" type="number" min="1" max="5" class="form-control"/>
+                <form:errors path="rating" class="text-danger"/>
+            </div>
+            <div class="mb-3">
+                <form:label path="notes">Notes</form:label>
+                <form:textarea path="notes" class="form-control"/>
+            </div>
+            <button class="btn btn-success">Add Burger</button>
+        </form:form>
+    </div>
 
-<h2>Add a Burger:</h2>
-<form:form action="/burgers" method="post" modelAttribute="burger">
-    <p>
-        <form:label path="name">Burger Name</form:label>
-        <form:errors path="name"/>
-        <form:input path="name"/>
-    </p>
-    <p>
-        <form:label path="restaurant">Restaurant Name</form:label>
-        <form:errors path="restaurant"/>
-        <form:input path="restaurant"/>
-    </p>
-    <p>
-        <form:label path="rating">Rating</form:label>
-        <form:errors path="rating"/>
-        <form:input type="number" path="rating"/>
-    </p>
-    <p>
-        <form:label path="notes">Notes</form:label>
-        <form:errors path="notes"/>
-        <form:textarea path="notes"/>
-    </p>
-    <input type="submit" value="Submit"/>
-</form:form>
-
+    <!-- Burger List -->
+    <div class="card shadow p-4">
+        <h4 class="mb-3">All Burgers</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Burger</th>
+                    <th>Restaurant</th>
+                    <th>Rating</th>
+                    <th>Notes</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <c:forEach var="burger" items="${burgers}">
+                    <tr>
+                        <td>${burger.name}</td>
+                        <td>${burger.restaurant}</td>
+                        <td>${burger.rating}</td>
+                        <td>${burger.notes}</td>
+                        <td>
+                            <a href="/burgers/edit/${burger.id}" class="btn btn-primary btn-sm">Edit</a>
+                        </td>
+                    </tr>
+                </c:forEach>
+            </tbody>
+        </table>
+    </div>
+</div>
 </body>
 </html>
