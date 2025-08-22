@@ -18,13 +18,11 @@ public class DojoController {
         this.dojoService = dojoService;
     }
 
-    // صفحة إنشاء Dojo
     @GetMapping("/dojos/new")
     public String newDojo(@ModelAttribute("dojo") Dojo dojo) {
         return "newDojo";
     }
 
-    // حفظ Dojo جديد
     @PostMapping("/dojos")
     public String createDojo(@Valid @ModelAttribute("dojo") Dojo dojo, BindingResult result) {
         if(result.hasErrors()) {
@@ -34,7 +32,6 @@ public class DojoController {
         return "redirect:/dojos";
     }
 
-    // عرض صفحة Dojo واحدة
     @GetMapping("/dojos/{id}")
     public String showDojo(@PathVariable("id") Long id, Model model) {
         Dojo dojo = dojoService.findById(id);
@@ -42,10 +39,9 @@ public class DojoController {
         return "showDojo";
     }
 
-    // عرض جميع الدوجوز
     @GetMapping("/dojos")
     public String allDojos(Model model) {
         model.addAttribute("dojos", dojoService.findAll());
-        return "index"; // صفحة تعرض كل الدوجوز
+        return "index";
     }
 }

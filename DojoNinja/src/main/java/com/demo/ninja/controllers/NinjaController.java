@@ -21,21 +21,21 @@ public class NinjaController {
         this.dojoService = dojoService;
     }
 
-    // صفحة إنشاء Ninja
+ 
     @GetMapping("/ninjas/new")
     public String newNinja(@ModelAttribute("ninja") Ninja ninja, Model model) {
         model.addAttribute("dojos", dojoService.findAll());
         return "newNinja";
     }
 
-    // حفظ Ninja جديد
+
     @PostMapping("/ninjas")
     public String createNinja(@Valid @ModelAttribute("ninja") Ninja ninja, BindingResult result, Model model) {
         if(result.hasErrors()) {
             model.addAttribute("dojos", dojoService.findAll());
             return "newNinja";
         }
-        // ربط Ninja بالـ Dojo الصحيح
+        
         Long dojoId = ninja.getDojo().getId();
         ninja.setDojo(dojoService.findById(dojoId));
 
